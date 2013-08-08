@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:background="#222222"
+    tools:context=".ToDoWidget">
+
+    <Button
+        android:id="@+id/camera_launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/palette_launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/palette"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/pen_launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pen"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/mic_launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mic"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
